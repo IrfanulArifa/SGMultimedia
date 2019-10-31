@@ -1,0 +1,13 @@
+disp("");
+disp("Trapesium");
+disp("");
+disp("Sisi bawah > Sisi Atas");
+bawah = input('Masukkan Panjang sisi bawah : ');
+tinggi = input('Masukkan Tinggi : ');
+atas = input('Masukkan Sisi atas : ');
+Sisa = bawah-atas;
+Miring = sqrt(tinggi*tinggi + Sisa*Sisa);
+Keliling2 = atas+bawah+tinggi+Miring;
+disp("Keliling Trapesium : "+ Keliling2);
+Luas2 = 0.5*atas*tinggi;
+disp("Luas     Trapesium : "+Luas2);
